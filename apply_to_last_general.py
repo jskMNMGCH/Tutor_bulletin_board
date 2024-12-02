@@ -14,12 +14,13 @@ import numpy as np
 #　　応募確認メールが届くのでそれは手入力する。適宜、求人情報のスクショを参照しながら応募するかを決めること。
 # 求人情報の"ご家庭からの質問"の欄が空欄でない案件に対してはブラウザのタブを閉じずに応募申し込み画面直前で止まっておく、質問への回答を手入力して応募すれば良い。
 
+### Following variables must be given. ###
 email = "Your email address"
 phone_nem = "Your phone number"
 txt = "Your introduction"
 path = "logfile.csv"
 gender = "Your gender"
-
+###########################################
 
     
 url = "http://www.ansin-teacher.net/offer/active.html"
